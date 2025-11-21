@@ -1,0 +1,48 @@
+╔══════════════════════════════════════════════════════════════╗
+║                   QUICK REFERENCE CARD                       ║
+║              Crop Disease App - IP Configuration             ║
+╚══════════════════════════════════════════════════════════════╝
+
+📍 CURRENT CONFIGURATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  IP Address:  10.198.106.66
+  Backend URL: http://10.198.106.66:8080/api
+  Config File: lib/config/app_config.dart (Line 7)
+
+⚡ WHEN IP CHANGES (30 seconds)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. Run: ipconfig
+  2. Edit: lib/config/app_config.dart (Line 7)
+  3. Press 'r' in Flutter terminal
+
+🔧 HELPER SCRIPTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  get_ip.bat           → Get current IP address
+  test_connection.bat  → Test backend connectivity
+
+📚 DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  IP_UPDATE_GUIDE.md              → Detailed guide
+  IP_CONFIGURATION_COMPLETE.md    → Complete setup info
+
+💡 PERMANENT SOLUTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Set static IP in Windows network settings
+  See: IP_UPDATE_GUIDE.md → "Set Static IP" section
+
+✅ ALL FILES UPDATED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✓ api_service.dart
+  ✓ disease_analysis_api_service.dart
+  ✓ offline_aware_api_service.dart
+  ✓ expert_dashboard.dart
+  ✓ disease_analysis_screen.dart
+
+🎯 NO MORE HARDCODED IPs!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  All services now use centralized AppConfig
+  Update once, works everywhere!
+
+╔══════════════════════════════════════════════════════════════╗
+║  Keep this file handy for quick reference!                  ║
+╚══════════════════════════════════════════════════════════════╝

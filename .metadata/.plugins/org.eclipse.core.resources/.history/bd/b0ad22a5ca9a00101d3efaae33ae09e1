@@ -1,0 +1,66 @@
+package com.cropapp.repository;
+
+import com.cropapp.entity.ExpertQuery;
+import com.cropapp.entity.User;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface ExpertQueryRepository extends JpaRepository<ExpertQuery, Long> {
+    
+    // Find queries by farmer
+    Page<ExpertQuery> findByFarmerOrderByCreatedAtDesc(User farmer, Pageable pageable);
+    
+    // Find queries by farmer and status
+    Page<ExpertQuery> findByFarmerAndStatusOrderByCreatedAtDesc(User farmer, String status, Pageable pageable);
+    
+    // Find all queries for experts (ordered by urgency and creation date)
+    @Query("SELECT q FROM ExpertQuery q ORDER BY " +
+           "CASE q.urgency " +
+           "WHEN 'critical' THEN 1 " +
+           "WHEN 'high' THEN 2 " +
+           "WHEN 'medium' THEN 3 " +
+           "WHEN 'low' THEN 4 " +
+           "ELSE 5 END, " +
+           "q.createdAt ASC")
+    Page<ExpertQuery> findAllOrderByUrgencyAndCreatedAt(Pageable pageable);
+    
+    // Find queries by status for experts
+    @Query("SELECT q FROM ExpertQuery q WHERE q.status = :status ORDER BY " +
+           "CASE q.urgency " +
+           "WHEN 'critical' THEN 1 " +
+           "WHEN 'high' THEN 2 " +
+           "WHEN 'medium' THEN 3 " +
+           "WHEN 'low' THEN 4 " +
+           "ELSE 5 END, " +
+           "q.createdAt ASC")
+    Page<ExpertQuery> findByStatusOrderByUrgencyAndCreatedAt(@Param("status") String status, Pageable pageable);
+    
+    // Find queries assigned to a specific expert
+    Page<ExpertQuery> findByExpertOrderByCreatedAtDesc(User expert, Pageable pageable);
+    
+    // Count queries by status
+    long countByStatus(String status);
+    
+    // Count queries by farmer
+    long countByFarmer(User farmer);
+    
+    // Count queries by farmer and status
+    long countByFarmerAndStatus(User farmer, String status);
+    
+    // Find recent queries (last 7 days)
+    @Query("SELECT q FROM ExpertQuery q WHERE q.createdAt >= CURRENT_DATE - 7 ORDER BY q.createdAt DESC")
+    List<ExpertQuery> findRecentQueries();
+    
+    // Find queries by category
+    Page<ExpertQuery> findByCategoryOrderByCreatedAtDesc(String category, Pageable pageable);
+    
+    // Find queries by urgency
+    Page<ExpertQuery> findByUrgencyOrderByCreatedAtDesc(String urgency, Pageable pageable);
+}

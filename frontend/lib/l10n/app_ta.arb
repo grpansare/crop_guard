@@ -1,0 +1,677 @@
+{
+  "@@locale": "ta",
+  "appTitle": "பயிர் நோய் கண்டறிதல்",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "welcome": "வரவேற்கிறோம்",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  
+  "farmerDashboard": "விவசாயி டாஷ்போர்டு",
+  "@farmerDashboard": {
+    "description": "Farmer Dashboard title"
+  },
+  
+  "scanPlant": "தாவரத்தை ஸ்கேன் செய்யுங்கள்",
+  "@scanPlant": {
+    "description": "Scan Plant button"
+  },
+  
+  "scanHistory": "ஸ்கேன் வரலாறு",
+  "@scanHistory": {
+    "description": "Scan History button"
+  },
+  
+  "myReports": "எனது அறிக்கைகள்",
+  "@myReports": {
+    "description": "My Reports button"
+  },
+  
+  "settings": "அமைப்புகள்",
+  "@settings": {
+    "description": "Settings button"
+  },
+  
+  "recentActivity": "சமீபத்திய செயல்பாடு",
+  "@recentActivity": {
+    "description": "Recent Activity section title"
+  },
+  
+  "quickStats": "விரைவு புள்ளிவிவரங்கள்",
+  "@quickStats": {
+    "description": "Quick Stats section title"
+  },
+  
+  "totalScans": "ஸ்கேன்கள் முடிந்தது",
+  "@totalScans": {
+    "description": "Total scans label"
+  },
+  
+  "diseasesDetected": "நோய்கள் கண்டறியப்பட்டன",
+  "@diseasesDetected": {
+    "description": "Diseases detected label"
+  },
+  
+  "plantsScanned": "தாவரங்கள் ஸ்கேன் செய்யப்பட்டன",
+  "@plantsScanned": {
+    "description": "Plants scanned label"
+  },
+  
+  "profile": "சுயவிவரம்",
+  "@profile": {
+    "description": "Profile section title"
+  },
+  
+  "notifications": "அறிவிப்புகள்",
+  "@notifications": {
+    "description": "Notifications section title"
+  },
+  
+  "appPreferences": "பயன்பாட்டு விருப்பங்கள்",
+  "@appPreferences": {
+    "description": "App Preferences section title"
+  },
+  
+  "language": "மொழி",
+  "@language": {
+    "description": "Language setting"
+  },
+  
+  "theme": "தீம்",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  
+  "account": "கணக்கு",
+  "@account": {
+    "description": "Account section title"
+  },
+  
+  "about": "பற்றி",
+  "@about": {
+    "description": "About section title"
+  },
+  
+  "logout": "வெளியேறு",
+  "@logout": {
+    "description": "Logout button"
+  },
+  
+  "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்",
+  "@selectLanguage": {
+    "description": "Select Language dialog title"
+  },
+  
+  "languageChanged": "மொழி மாற்றப்பட்டது",
+  "@languageChanged": {
+    "description": "Language changed dialog title"
+  },
+  
+  "languageChangedMessage": "பயன்பாட்டு மொழி மாற்றப்பட்டது. மாற்றங்களைக் காண தயவுசெய்து பயன்பாட்டை மீண்டும் தொடங்கவும்.",
+  "@languageChangedMessage": {
+    "description": "Language changed dialog message"
+  },
+  
+  "restartApp": "பயன்பாட்டை மீண்டும் தொடங்கவும்",
+  "@restartApp": {
+    "description": "Restart app button"
+  },
+  
+  "cancel": "ரத்து செய்",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  
+  "save": "சேமி",
+  "@save": {
+    "description": "Save button"
+  },
+  
+  "noRecentActivity": "சமீபத்திய செயல்பாடுகள் இல்லை",
+  "@noRecentActivity": {
+    "description": "No recent activities message"
+  },
+  
+  "startScanning": "உங்கள் செயல்பாட்டை இங்கே காண தாவரங்களை ஸ்கேன் செய்யத் தொடங்குங்கள்",
+  "@startScanning": {
+    "description": "Start scanning message"
+  },
+  
+  "plantScanned": "தாவரம் ஸ்கேன் செய்யப்பட்டது",
+  "@plantScanned": {
+    "description": "Plant scanned activity message"
+  },
+  
+  "diseaseDetected": "கண்டறியப்பட்டது",
+  "@diseaseDetected": {
+    "description": "Disease detected message"
+  },
+  
+  "severity": "கடுமை",
+  "@severity": {
+    "description": "Severity label"
+  },
+  
+  "noDiseasesDetected": "நோய்கள் கண்டறியப்படவில்லை",
+  "@noDiseasesDetected": {
+    "description": "No diseases detected message"
+  },
+  
+  "healthy": "ஆரோக்கியமானது",
+  "@healthy": {
+    "description": "Healthy status"
+  },
+  
+  "expertDashboard": "நிபுணர் டாஷ்போர்டு",
+  "@expertDashboard": {
+    "description": "Expert Dashboard title"
+  },
+  
+  "farmerQueries": "விவசாயி கேள்விகள்",
+  "@farmerQueries": {
+    "description": "Farmer Queries section"
+  },
+  
+  "caseReview": "வழக்கு மறுஆய்வு",
+  "@caseReview": {
+    "description": "Case Review section"
+  },
+  
+  "knowledgeBase": "அறிவு தளம்",
+  "@knowledgeBase": {
+    "description": "Knowledge Base section"
+  },
+  
+  "diseaseTrends": "நோய் போக்குகள்",
+  "@diseaseTrends": {
+    "description": "Disease Trends section"
+  },
+  
+  "expertSettings": "நிபுணர் அமைப்புகள்",
+  "@expertSettings": {
+    "description": "Expert Settings section"
+  },
+  
+  "pendingCases": "நிலுவையில் உள்ள வழக்குகள்",
+  "@pendingCases": {
+    "description": "Pending Cases count"
+  },
+  
+  "criticalCases": "முக்கியமான வழக்குகள்",
+  "@criticalCases": {
+    "description": "Critical Cases count"
+  },
+  
+  "totalQueries": "மொத்த கேள்விகள்",
+  "@totalQueries": {
+    "description": "Total Queries count"
+  },
+  
+  "activeFarmers": "செயலில் உள்ள விவசாயிகள்",
+  "@activeFarmers": {
+    "description": "Active Farmers count"
+  },
+  
+  "responseTime": "பதில் நேரம்",
+  "@responseTime": {
+    "description": "Response Time metric"
+  },
+  
+  "satisfactionRating": "திருப்தி மதிப்பீடு",
+  "@satisfactionRating": {
+    "description": "Satisfaction Rating metric"
+  },
+  
+  "treatmentsProvided": "வழங்கப்பட்ட சிகிச்சைகள்",
+  "@treatmentsProvided": {
+    "description": "Treatments Provided count"
+  },
+  
+  "statisticsOverview": "புள்ளிவிவரங்கள் கண்ணோட்டம்",
+  "@statisticsOverview": {
+    "description": "Statistics Overview section"
+  },
+  
+  "performanceMetrics": "செயல்திறன் அளவீடுகள்",
+  "@performanceMetrics": {
+    "description": "Performance Metrics section"
+  },
+  
+  "expertTools": "நிபுணர் கருவிகள்",
+  "@expertTools": {
+    "description": "Expert Tools section"
+  },
+  
+  "diseaseAnalysis": "நோய் பகுப்பாய்வு",
+  "@diseaseAnalysis": {
+    "description": "Disease Analysis tool"
+  },
+  
+  "reviewCases": "வழக்குகளை மறுஆய்வு செய்யுங்கள்",
+  "@reviewCases": {
+    "description": "Review Cases tool"
+  },
+  
+  "queryDetails": "கேள்வி விவரங்கள்",
+  "@queryDetails": {
+    "description": "Query Details title"
+  },
+  
+  "respondToQuery": "கேள்விக்கு பதிலளிக்கவும்",
+  "@respondToQuery": {
+    "description": "Respond to Query action"
+  },
+  
+  "submitResponse": "பதிலை சமர்ப்பிக்கவும்",
+  "@submitResponse": {
+    "description": "Submit Response button"
+  },
+  
+  "yourResponse": "உங்கள் பதில்",
+  "@yourResponse": {
+    "description": "Your Response field"
+  },
+  
+  "provideDetailedAdvice": "விரிவான ஆலோசனைகள் மற்றும் பரிந்துரைகளை வழங்குங்கள்...",
+  "@provideDetailedAdvice": {
+    "description": "Response field hint"
+  },
+  
+  "minimumCharactersRequired": "குறைந்தது 10 எழுத்துகள் தேவை",
+  "@minimumCharactersRequired": {
+    "description": "Response field helper text"
+  },
+  
+  "responseSubmittedSuccessfully": "பதில் வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+  "@responseSubmittedSuccessfully": {
+    "description": "Response success message"
+  },
+  
+  "failedToSubmitResponse": "பதில் சமர்ப்பிக்க முடியவில்லை",
+  "@failedToSubmitResponse": {
+    "description": "Response error message"
+  },
+  
+  "caseDetails": "வழக்கு விவரங்கள்",
+  "@caseDetails": {
+    "description": "Case Details title"
+  },
+  
+  "reviewCase": "வழக்கை மறுஆய்வு செய்யுங்கள்",
+  "@reviewCase": {
+    "description": "Review Case action"
+  },
+  
+  "expertNotes": "நிபுணர் குறிப்புகள்",
+  "@expertNotes": {
+    "description": "Expert Notes field"
+  },
+  
+  "rating": "மதிப்பீடு",
+  "@rating": {
+    "description": "Rating field"
+  },
+  
+  "provideProfessionalAssessment": "உங்கள் தொழில்முறை மதிப்பீடு மற்றும் பரிந்துரைகளை வழங்குங்கள்...",
+  "@provideProfessionalAssessment": {
+    "description": "Expert notes field hint"
+  },
+  
+  "reviewSubmittedSuccessfully": "மறுஆய்வு வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+  "@reviewSubmittedSuccessfully": {
+    "description": "Review success message"
+  },
+  
+  "failedToSubmitReview": "மறுஆய்வு சமர்ப்பிக்க முடியவில்லை",
+  "@failedToSubmitReview": {
+    "description": "Review error message"
+  },
+  
+  "searchDiseases": "நோய்கள், பயிர்கள் அல்லது அறிகுறிகளைத் தேடுங்கள்...",
+  "@searchDiseases": {
+    "description": "Search field hint"
+  },
+  
+  "category": "வகை",
+  "@category": {
+    "description": "Category label"
+  },
+  
+  "totalDiseases": "மொத்த நோய்கள்",
+  "@totalDiseases": {
+    "description": "Total Diseases count"
+  },
+  
+  "filtered": "வடிகட்டப்பட்டது",
+  "@filtered": {
+    "description": "Filtered count"
+  },
+  
+  "critical": "முக்கியமானது",
+  "@critical": {
+    "description": "Critical status"
+  },
+  
+  "diseaseInformation": "நோய் தகவல்",
+  "@diseaseInformation": {
+    "description": "Disease Information title"
+  },
+  
+  "basicInformation": "அடிப்படை தகவல்",
+  "@basicInformation": {
+    "description": "Basic Information section"
+  },
+  
+  "scientificName": "அறிவியல் பெயர்",
+  "@scientificName": {
+    "description": "Scientific Name field"
+  },
+  
+  "riskLevel": "ஆபத்து நிலை",
+  "@riskLevel": {
+    "description": "Risk Level field"
+  },
+  
+  "affectedCrops": "பாதிக்கப்பட்ட பயிர்கள்",
+  "@affectedCrops": {
+    "description": "Affected Crops field"
+  },
+  
+  "description": "விளக்கம்",
+  "@description": {
+    "description": "Description field"
+  },
+  
+  "causes": "காரணங்கள்",
+  "@causes": {
+    "description": "Causes section"
+  },
+  
+  "prevention": "தடுப்பு",
+  "@prevention": {
+    "description": "Prevention section"
+  },
+  
+  "treatment": "சிகிச்சை",
+  "@treatment": {
+    "description": "Treatment section"
+  },
+  
+  "outbreakRiskAssessment": "வெடிப்பு ஆபத்து மதிப்பீடு",
+  "@outbreakRiskAssessment": {
+    "description": "Outbreak Risk Assessment title"
+  },
+  
+  "confidence": "நம்பிக்கை",
+  "@confidence": {
+    "description": "Confidence field"
+  },
+  
+  "timeframe": "நேர கட்டம்",
+  "@timeframe": {
+    "description": "Timeframe field"
+  },
+  
+  "diseaseTrendsOverTime": "காலப்போக்கில் நோய் போக்குகள்",
+  "@diseaseTrendsOverTime": {
+    "description": "Disease Trends chart title"
+  },
+  
+  "diseaseOutbreakPredictions": "நோய் வெடிப்பு கணிப்புகள்",
+  "@diseaseOutbreakPredictions": {
+    "description": "Disease Outbreak Predictions title"
+  },
+  
+  "expertRecommendations": "நிபுணர் பரிந்துரைகள்",
+  "@expertRecommendations": {
+    "description": "Expert Recommendations section"
+  },
+  
+  "weatherImpactAnalysis": "வானிலை தாக்க பகுப்பாய்வு",
+  "@weatherImpactAnalysis": {
+    "description": "Weather Impact Analysis title"
+  },
+  
+  "seasonalForecast": "பருவகால கணிப்பு",
+  "@seasonalForecast": {
+    "description": "Seasonal Forecast title"
+  },
+  
+  "profileInformation": "சுயவிவர தகவல்",
+  "@profileInformation": {
+    "description": "Profile Information section"
+  },
+  
+  "specialization": "சிறப்பு",
+  "@specialization": {
+    "description": "Specialization field"
+  },
+  
+  "yearsOfExperience": "அனுபவ ஆண்டுகள்",
+  "@yearsOfExperience": {
+    "description": "Years of Experience field"
+  },
+  
+  "saveProfile": "சுயவிவரத்தை சேமி",
+  "@saveProfile": {
+    "description": "Save Profile button"
+  },
+  
+  "notificationSettings": "அறிவிப்பு அமைப்புகள்",
+  "@notificationSettings": {
+    "description": "Notification Settings section"
+  },
+  
+  "pushNotifications": "புஷ் அறிவிப்புகள்",
+  "@pushNotifications": {
+    "description": "Push Notifications setting"
+  },
+  
+  "emailNotifications": "மின்னஞ்சல் அறிவிப்புகள்",
+  "@emailNotifications": {
+    "description": "Email Notifications setting"
+  },
+  
+  "queryAlerts": "கேள்வி எச்சரிக்கைகள்",
+  "@queryAlerts": {
+    "description": "Query Alerts setting"
+  },
+  
+  "caseReviewAlerts": "வழக்கு மறுஆய்வு எச்சரிக்கைகள்",
+  "@caseReviewAlerts": {
+    "description": "Case Review Alerts setting"
+  },
+  
+  "trendAlerts": "போக்கு எச்சரிக்கைகள்",
+  "@trendAlerts": {
+    "description": "Trend Alerts setting"
+  },
+  
+  "saveNotificationSettings": "அறிவிப்பு அமைப்புகளை சேமி",
+  "@saveNotificationSettings": {
+    "description": "Save Notification Settings button"
+  },
+  
+  "preferences": "விருப்பங்கள்",
+  "@preferences": {
+    "description": "Preferences section"
+  },
+  
+  "savePreferences": "விருப்பங்களை சேமி",
+  "@savePreferences": {
+    "description": "Save Preferences button"
+  },
+  
+  "autoSave": "தானியங்கி சேமிப்பு",
+  "@autoSave": {
+    "description": "Auto Save setting"
+  },
+  
+  "dataSync": "தரவு ஒத்திசைவு",
+  "@dataSync": {
+    "description": "Data Sync setting"
+  },
+  
+  "security": "பாதுகாப்பு",
+  "@security": {
+    "description": "Security section"
+  },
+  
+  "changePassword": "கடவுச்சொல்லை மாற்றவும்",
+  "@changePassword": {
+    "description": "Change Password action"
+  },
+  
+  "currentPassword": "தற்போதைய கடவுச்சொல்",
+  "@currentPassword": {
+    "description": "Current Password field"
+  },
+  
+  "newPassword": "புதிய கடவுச்சொல்",
+  "@newPassword": {
+    "description": "New Password field"
+  },
+  
+  "confirmNewPassword": "புதிய கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+  "@confirmNewPassword": {
+    "description": "Confirm New Password field"
+  },
+  
+  "biometricAuthentication": "பயோமெட்ரிக் அங்கீகாரம்",
+  "@biometricAuthentication": {
+    "description": "Biometric Authentication setting"
+  },
+  
+  "appVersion": "பயன்பாட்டு பதிப்பு",
+  "@appVersion": {
+    "description": "App Version field"
+  },
+  
+  "privacyPolicy": "தனியுரிமை கொள்கை",
+  "@privacyPolicy": {
+    "description": "Privacy Policy link"
+  },
+  
+  "termsOfService": "சேவை விதிமுறைகள்",
+  "@termsOfService": {
+    "description": "Terms of Service link"
+  },
+  
+  "helpSupport": "உதவி மற்றும் ஆதரவு",
+  "@helpSupport": {
+    "description": "Help & Support link"
+  },
+  
+  "profileUpdatedSuccessfully": "சுயவிவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது!",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile update success message"
+  },
+  
+  "settingsSavedSuccessfully": "அமைப்புகள் வெற்றிகரமாக சேமிக்கப்பட்டன!",
+  "@settingsSavedSuccessfully": {
+    "description": "Settings save success message"
+  },
+  
+  "passwordChangedSuccessfully": "கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!",
+  "@passwordChangedSuccessfully": {
+    "description": "Password change success message"
+  },
+  
+  "failedToUpdateProfile": "சுயவிவரத்தை புதுப்பிக்க முடியவில்லை",
+  "@failedToUpdateProfile": {
+    "description": "Profile update error message"
+  },
+  
+  "failedToSaveSettings": "அமைப்புகளை சேமிக்க முடியவில்லை",
+  "@failedToSaveSettings": {
+    "description": "Settings save error message"
+  },
+  
+  "failedToChangePassword": "கடவுச்சொல்லை மாற்ற முடியவில்லை",
+  "@failedToChangePassword": {
+    "description": "Password change error message"
+  },
+  
+  "nameIsRequired": "பெயர் தேவை",
+  "@nameIsRequired": {
+    "description": "Name validation error"
+  },
+  
+  "mobileNumberIsRequired": "மொபைல் எண் தேவை",
+  "@mobileNumberIsRequired": {
+    "description": "Mobile validation error"
+  },
+  
+  "pleaseEnterYourReviewNotes": "தயவுசெய்து உங்கள் மறுஆய்வு குறிப்புகளை உள்ளிடவும்",
+  "@pleaseEnterYourReviewNotes": {
+    "description": "Review notes validation error"
+  },
+  
+  "pleaseProvideARating": "தயவுசெய்து மதிப்பீட்டை வழங்கவும்",
+  "@pleaseProvideARating": {
+    "description": "Rating validation error"
+  },
+  
+  "pleaseEnterYourResponse": "தயவுசெய்து உங்கள் பதிலை உள்ளிடவும்",
+  "@pleaseEnterYourResponse": {
+    "description": "Response validation error"
+  },
+  
+  "responseMustBeAtLeast10Characters": "பதில் குறைந்தது 10 எழுத்துகளாக இருக்க வேண்டும்",
+  "@responseMustBeAtLeast10Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "responseMustBeLessThan2000Characters": "பதில் 2000 எழுத்துகளுக்கும் குறைவாக இருக்க வேண்டும்",
+  "@responseMustBeLessThan2000Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "newPasswordsDoNotMatch": "புதிய கடவுச்சொற்கள் பொருந்தவில்லை",
+  "@newPasswordsDoNotMatch": {
+    "description": "Password confirmation error"
+  },
+  
+  "passwordMustBeAtLeast6Characters": "கடவுச்சொல் குறைந்தது 6 எழுத்துகளாக இருக்க வேண்டும்",
+  "@passwordMustBeAtLeast6Characters": {
+    "description": "Password length validation error"
+  },
+  
+  "youreOfflineSomeFeaturesMayBeLimited": "நீங்கள் ஆஃப்லைனில் உள்ளீர்கள். சில அம்சங்கள் வரம்பிடப்படலாம்.",
+  "@youreOfflineSomeFeaturesMayBeLimited": {
+    "description": "Offline mode banner message"
+  },
+  
+  "pending": "நிலுவையில்",
+  "@pending": {
+    "description": "Pending status"
+  },
+  
+  "dataSyncedSuccessfully": "தரவு வெற்றிகரமாக ஒத்திசைக்கப்பட்டது!",
+  "@dataSyncedSuccessfully": {
+    "description": "Sync success message"
+  },
+  
+  "syncFailed": "ஒத்திசைவு தோல்வியடைந்தது",
+  "@syncFailed": {
+    "description": "Sync error message"
+  },
+  
+  "syncingData": "தரவை ஒத்திசைக்கிறது...",
+  "@syncingData": {
+    "description": "Sync progress message"
+  },
+  
+  "noOfflineDataAvailable": "ஆஃப்லைன் தரவு கிடைக்கவில்லை",
+  "@noOfflineDataAvailable": {
+    "description": "No offline data message"
+  },
+  
+  "offlineModeRequestQueuedForSync": "ஆஃப்லைன் முறை: கோரிக்கை ஒத்திசைவுக்காக வரிசையில் உள்ளது",
+  "@offlineModeRequestQueuedForSync": {
+    "description": "Offline mode queue message"
+  }
+}

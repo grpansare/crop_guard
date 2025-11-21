@@ -1,0 +1,63 @@
+package com.cropapp.repository;
+
+import com.cropapp.entity.Scan;
+import com.cropapp.entity.User;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.time.LocalDateTime;
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface ScanRepository extends JpaRepository<Scan, Long> {
+    
+    // Find all scans for a specific user, ordered by creation date (newest first)
+    List<Scan> findByUserOrderByCreatedAtDesc(User user);
+    
+    // Find scans for a user with pagination
+    Page<Scan> findByUserOrderByCreatedAtDesc(User user, Pageable pageable);
+    
+    // Find scans by user and disease type
+    List<Scan> findByUserAndDiseaseOrderByCreatedAtDesc(User user, String disease);
+    
+    // Find scans by user and plant type
+    List<Scan> findByUserAndPlantTypeOrderByCreatedAtDesc(User user, String plantType);
+    
+    // Find scans by user within a date range
+    List<Scan> findByUserAndCreatedAtBetweenOrderByCreatedAtDesc(User user, LocalDateTime startDate, LocalDateTime endDate);
+    
+    // Count total scans for a user
+    long countByUser(User user);
+    
+    // Count scans with diseases detected for a user
+    @Query("SELECT COUNT(s) FROM Scan s WHERE s.user = :user AND s.disease != 'Healthy'")
+    long countDiseasesDetectedByUser(@Param("user") User user);
+    
+    // Count healthy scans for a user
+    @Query("SELECT COUNT(s) FROM Scan s WHERE s.user = :user AND s.disease = 'Healthy'")
+    long countHealthyScansByUser(@Param("user") User user);
+    
+    // Find most common disease for a user
+    @Query("SELECT s.disease, COUNT(s) as count FROM Scan s WHERE s.user = :user AND s.disease != 'Healthy' GROUP BY s.disease ORDER BY count DESC")
+    List<Object[]> findMostCommonDiseaseByUser(@Param("user") User user);
+    
+    // Find recent scans for activity feed
+    List<Scan> findTop10ByUserOrderByCreatedAtDesc(User user);
+    
+    // Find scans by status
+    List<Scan> findByUserAndStatusOrderByCreatedAtDesc(User user, String status);
+    // Count scans by user and status
+long countByUserAndStatus(User user, String status);
+    // Custom query to get scan statistics
+    @Query("SELECT " +
+           "COUNT(s) as totalScans, " +
+           "COUNT(CASE WHEN s.disease != 'Healthy' THEN 1 END) as diseasesDetected, " +
+           "COUNT(CASE WHEN s.disease = 'Healthy' THEN 1 END) as healthyPlants " +
+           "FROM Scan s WHERE s.user = :user")
+    Object[] getScanStatisticsByUser(@Param("user") User user);
+}

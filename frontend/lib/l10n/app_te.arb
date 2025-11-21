@@ -1,0 +1,677 @@
+{
+  "@@locale": "te",
+  "appTitle": "పంట వ్యాధి గుర్తింపు",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "welcome": "స్వాగతం",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  
+  "farmerDashboard": "రైతు డ్యాష్‌బోర్డ్",
+  "@farmerDashboard": {
+    "description": "Farmer Dashboard title"
+  },
+  
+  "scanPlant": "మొక్కను స్కాన్ చేయండి",
+  "@scanPlant": {
+    "description": "Scan Plant button"
+  },
+  
+  "scanHistory": "స్కాన్ చరిత్ర",
+  "@scanHistory": {
+    "description": "Scan History button"
+  },
+  
+  "myReports": "నా నివేదికలు",
+  "@myReports": {
+    "description": "My Reports button"
+  },
+  
+  "settings": "సెట్టింగ్‌లు",
+  "@settings": {
+    "description": "Settings button"
+  },
+  
+  "recentActivity": "ఇటీవలి కార్యకలాపం",
+  "@recentActivity": {
+    "description": "Recent Activity section title"
+  },
+  
+  "quickStats": "త్వరిత గణాంకాలు",
+  "@quickStats": {
+    "description": "Quick Stats section title"
+  },
+  
+  "totalScans": "స్కాన్‌లు పూర్తయ్యాయి",
+  "@totalScans": {
+    "description": "Total scans label"
+  },
+  
+  "diseasesDetected": "వ్యాధులు గుర్తించబడ్డాయి",
+  "@diseasesDetected": {
+    "description": "Diseases detected label"
+  },
+  
+  "plantsScanned": "మొక్కలు స్కాన్ చేయబడ్డాయి",
+  "@plantsScanned": {
+    "description": "Plants scanned label"
+  },
+  
+  "profile": "ప్రొఫైల్",
+  "@profile": {
+    "description": "Profile section title"
+  },
+  
+  "notifications": "నోటిఫికేషన్‌లు",
+  "@notifications": {
+    "description": "Notifications section title"
+  },
+  
+  "appPreferences": "అనువర్తన ప్రాధాన్యతలు",
+  "@appPreferences": {
+    "description": "App Preferences section title"
+  },
+  
+  "language": "భాష",
+  "@language": {
+    "description": "Language setting"
+  },
+  
+  "theme": "థీమ్",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  
+  "account": "ఖాతా",
+  "@account": {
+    "description": "Account section title"
+  },
+  
+  "about": "గురించి",
+  "@about": {
+    "description": "About section title"
+  },
+  
+  "logout": "లాగ్ అవుట్",
+  "@logout": {
+    "description": "Logout button"
+  },
+  
+  "selectLanguage": "భాషను ఎంచుకోండి",
+  "@selectLanguage": {
+    "description": "Select Language dialog title"
+  },
+  
+  "languageChanged": "భాష మార్చబడింది",
+  "@languageChanged": {
+    "description": "Language changed dialog title"
+  },
+  
+  "languageChangedMessage": "అనువర్తన భాష మార్చబడింది. మార్పులను చూడటానికి దయచేసి అనువర్తనాన్ని పునఃప్రారంభించండి.",
+  "@languageChangedMessage": {
+    "description": "Language changed dialog message"
+  },
+  
+  "restartApp": "అనువర్తనాన్ని పునఃప్రారంభించండి",
+  "@restartApp": {
+    "description": "Restart app button"
+  },
+  
+  "cancel": "రద్దు చేయండి",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  
+  "save": "సేవ్ చేయండి",
+  "@save": {
+    "description": "Save button"
+  },
+  
+  "noRecentActivity": "ఇటీవలి కార్యకలాపాలు లేవు",
+  "@noRecentActivity": {
+    "description": "No recent activities message"
+  },
+  
+  "startScanning": "మీ కార్యకలాపాన్ని ఇక్కడ చూడటానికి మొక్కలను స్కాన్ చేయడం ప్రారంభించండి",
+  "@startScanning": {
+    "description": "Start scanning message"
+  },
+  
+  "plantScanned": "మొక్క స్కాన్ చేయబడింది",
+  "@plantScanned": {
+    "description": "Plant scanned activity message"
+  },
+  
+  "diseaseDetected": "గుర్తించబడింది",
+  "@diseaseDetected": {
+    "description": "Disease detected message"
+  },
+  
+  "severity": "తీవ్రత",
+  "@severity": {
+    "description": "Severity label"
+  },
+  
+  "noDiseasesDetected": "వ్యాధులు గుర్తించబడలేదు",
+  "@noDiseasesDetected": {
+    "description": "No diseases detected message"
+  },
+  
+  "healthy": "ఆరోగ్యవంతమైనది",
+  "@healthy": {
+    "description": "Healthy status"
+  },
+  
+  "expertDashboard": "నిపుణుల డ్యాష్‌బోర్డ్",
+  "@expertDashboard": {
+    "description": "Expert Dashboard title"
+  },
+  
+  "farmerQueries": "రైతుల ప్రశ్నలు",
+  "@farmerQueries": {
+    "description": "Farmer Queries section"
+  },
+  
+  "caseReview": "కేస్ సమీక్ష",
+  "@caseReview": {
+    "description": "Case Review section"
+  },
+  
+  "knowledgeBase": "జ్ఞాన ఆధారం",
+  "@knowledgeBase": {
+    "description": "Knowledge Base section"
+  },
+  
+  "diseaseTrends": "వ్యాధి పోకడలు",
+  "@diseaseTrends": {
+    "description": "Disease Trends section"
+  },
+  
+  "expertSettings": "నిపుణుల సెట్టింగ్‌లు",
+  "@expertSettings": {
+    "description": "Expert Settings section"
+  },
+  
+  "pendingCases": "వేచివున్న కేసులు",
+  "@pendingCases": {
+    "description": "Pending Cases count"
+  },
+  
+  "criticalCases": "క్లిష్టమైన కేసులు",
+  "@criticalCases": {
+    "description": "Critical Cases count"
+  },
+  
+  "totalQueries": "మొత్తం ప్రశ్నలు",
+  "@totalQueries": {
+    "description": "Total Queries count"
+  },
+  
+  "activeFarmers": "క్రియాశీల రైతులు",
+  "@activeFarmers": {
+    "description": "Active Farmers count"
+  },
+  
+  "responseTime": "స్పందన సమయం",
+  "@responseTime": {
+    "description": "Response Time metric"
+  },
+  
+  "satisfactionRating": "సంతృప్తి రేటింగ్",
+  "@satisfactionRating": {
+    "description": "Satisfaction Rating metric"
+  },
+  
+  "treatmentsProvided": "అందించిన చికిత్సలు",
+  "@treatmentsProvided": {
+    "description": "Treatments Provided count"
+  },
+  
+  "statisticsOverview": "గణాంకాల అవలోకనం",
+  "@statisticsOverview": {
+    "description": "Statistics Overview section"
+  },
+  
+  "performanceMetrics": "పనితీరు కొలమానాలు",
+  "@performanceMetrics": {
+    "description": "Performance Metrics section"
+  },
+  
+  "expertTools": "నిపుణుల సాధనాలు",
+  "@expertTools": {
+    "description": "Expert Tools section"
+  },
+  
+  "diseaseAnalysis": "వ్యాధి విశ్లేషణ",
+  "@diseaseAnalysis": {
+    "description": "Disease Analysis tool"
+  },
+  
+  "reviewCases": "కేసులను సమీక్షించండి",
+  "@reviewCases": {
+    "description": "Review Cases tool"
+  },
+  
+  "queryDetails": "ప్రశ్న వివరాలు",
+  "@queryDetails": {
+    "description": "Query Details title"
+  },
+  
+  "respondToQuery": "ప్రశ్నకు సమాధానం ఇవ్వండి",
+  "@respondToQuery": {
+    "description": "Respond to Query action"
+  },
+  
+  "submitResponse": "స్పందనను సమర్పించండి",
+  "@submitResponse": {
+    "description": "Submit Response button"
+  },
+  
+  "yourResponse": "మీ స్పందన",
+  "@yourResponse": {
+    "description": "Your Response field"
+  },
+  
+  "provideDetailedAdvice": "వివరమైన సలహాలు మరియు సిఫార్సులను అందించండి...",
+  "@provideDetailedAdvice": {
+    "description": "Response field hint"
+  },
+  
+  "minimumCharactersRequired": "కనీసం 10 అక్షరాలు అవసరం",
+  "@minimumCharactersRequired": {
+    "description": "Response field helper text"
+  },
+  
+  "responseSubmittedSuccessfully": "స్పందన విజయవంతంగా సమర్పించబడింది!",
+  "@responseSubmittedSuccessfully": {
+    "description": "Response success message"
+  },
+  
+  "failedToSubmitResponse": "స్పందనను సమర్పించడంలో విఫలమైంది",
+  "@failedToSubmitResponse": {
+    "description": "Response error message"
+  },
+  
+  "caseDetails": "కేస్ వివరాలు",
+  "@caseDetails": {
+    "description": "Case Details title"
+  },
+  
+  "reviewCase": "కేసును సమీక్షించండి",
+  "@reviewCase": {
+    "description": "Review Case action"
+  },
+  
+  "expertNotes": "నిపుణుల గమనికలు",
+  "@expertNotes": {
+    "description": "Expert Notes field"
+  },
+  
+  "rating": "రేటింగ్",
+  "@rating": {
+    "description": "Rating field"
+  },
+  
+  "provideProfessionalAssessment": "మీ వృత్తిపరమైన అంచనా మరియు సిఫార్సులను అందించండి...",
+  "@provideProfessionalAssessment": {
+    "description": "Expert notes field hint"
+  },
+  
+  "reviewSubmittedSuccessfully": "సమీక్ష విజయవంతంగా సమర్పించబడింది!",
+  "@reviewSubmittedSuccessfully": {
+    "description": "Review success message"
+  },
+  
+  "failedToSubmitReview": "సమీక్షను సమర్పించడంలో విఫలమైంది",
+  "@failedToSubmitReview": {
+    "description": "Review error message"
+  },
+  
+  "searchDiseases": "వ్యాధులు, పంటలు లేదా లక్షణాలను వెతకండి...",
+  "@searchDiseases": {
+    "description": "Search field hint"
+  },
+  
+  "category": "వర్గం",
+  "@category": {
+    "description": "Category label"
+  },
+  
+  "totalDiseases": "మొత్తం వ్యాధులు",
+  "@totalDiseases": {
+    "description": "Total Diseases count"
+  },
+  
+  "filtered": "వడపోయబడింది",
+  "@filtered": {
+    "description": "Filtered count"
+  },
+  
+  "critical": "క్లిష్టమైనది",
+  "@critical": {
+    "description": "Critical status"
+  },
+  
+  "diseaseInformation": "వ్యాధి సమాచారం",
+  "@diseaseInformation": {
+    "description": "Disease Information title"
+  },
+  
+  "basicInformation": "ప్రాథమిక సమాచారం",
+  "@basicInformation": {
+    "description": "Basic Information section"
+  },
+  
+  "scientificName": "శాస్త్రీయ పేరు",
+  "@scientificName": {
+    "description": "Scientific Name field"
+  },
+  
+  "riskLevel": "అపాయ స్థాయి",
+  "@riskLevel": {
+    "description": "Risk Level field"
+  },
+  
+  "affectedCrops": "ప్రభావిత పంటలు",
+  "@affectedCrops": {
+    "description": "Affected Crops field"
+  },
+  
+  "description": "వివరణ",
+  "@description": {
+    "description": "Description field"
+  },
+  
+  "causes": "కారణాలు",
+  "@causes": {
+    "description": "Causes section"
+  },
+  
+  "prevention": "నివారణ",
+  "@prevention": {
+    "description": "Prevention section"
+  },
+  
+  "treatment": "చికిత్స",
+  "@treatment": {
+    "description": "Treatment section"
+  },
+  
+  "outbreakRiskAssessment": "వ్యాప్తి అపాయ అంచనా",
+  "@outbreakRiskAssessment": {
+    "description": "Outbreak Risk Assessment title"
+  },
+  
+  "confidence": "విశ్వాసం",
+  "@confidence": {
+    "description": "Confidence field"
+  },
+  
+  "timeframe": "సమయ కాలం",
+  "@timeframe": {
+    "description": "Timeframe field"
+  },
+  
+  "diseaseTrendsOverTime": "కాలక్రమేణా వ్యాధి పోకడలు",
+  "@diseaseTrendsOverTime": {
+    "description": "Disease Trends chart title"
+  },
+  
+  "diseaseOutbreakPredictions": "వ్యాధి వ్యాప్తి అంచనాలు",
+  "@diseaseOutbreakPredictions": {
+    "description": "Disease Outbreak Predictions title"
+  },
+  
+  "expertRecommendations": "నిపుణుల సిఫార్సులు",
+  "@expertRecommendations": {
+    "description": "Expert Recommendations section"
+  },
+  
+  "weatherImpactAnalysis": "వాతావరణ ప్రభావ విశ్లేషణ",
+  "@weatherImpactAnalysis": {
+    "description": "Weather Impact Analysis title"
+  },
+  
+  "seasonalForecast": "ఋతుపవన అంచనా",
+  "@seasonalForecast": {
+    "description": "Seasonal Forecast title"
+  },
+  
+  "profileInformation": "ప్రొఫైల్ సమాచారం",
+  "@profileInformation": {
+    "description": "Profile Information section"
+  },
+  
+  "specialization": "విశేషీకరణ",
+  "@specialization": {
+    "description": "Specialization field"
+  },
+  
+  "yearsOfExperience": "అనుభవ సంవత్సరాలు",
+  "@yearsOfExperience": {
+    "description": "Years of Experience field"
+  },
+  
+  "saveProfile": "ప్రొఫైల్‌ను సేవ్ చేయండి",
+  "@saveProfile": {
+    "description": "Save Profile button"
+  },
+  
+  "notificationSettings": "నోటిఫికేషన్ సెట్టింగ్‌లు",
+  "@notificationSettings": {
+    "description": "Notification Settings section"
+  },
+  
+  "pushNotifications": "పుష్ నోటిఫికేషన్‌లు",
+  "@pushNotifications": {
+    "description": "Push Notifications setting"
+  },
+  
+  "emailNotifications": "ఇమెయిల్ నోటిఫికేషన్‌లు",
+  "@emailNotifications": {
+    "description": "Email Notifications setting"
+  },
+  
+  "queryAlerts": "ప్రశ్న హెచ్చరికలు",
+  "@queryAlerts": {
+    "description": "Query Alerts setting"
+  },
+  
+  "caseReviewAlerts": "కేస్ సమీక్ష హెచ్చరికలు",
+  "@caseReviewAlerts": {
+    "description": "Case Review Alerts setting"
+  },
+  
+  "trendAlerts": "పోకడ హెచ్చరికలు",
+  "@trendAlerts": {
+    "description": "Trend Alerts setting"
+  },
+  
+  "saveNotificationSettings": "నోటిఫికేషన్ సెట్టింగ్‌లను సేవ్ చేయండి",
+  "@saveNotificationSettings": {
+    "description": "Save Notification Settings button"
+  },
+  
+  "preferences": "ప్రాధాన్యతలు",
+  "@preferences": {
+    "description": "Preferences section"
+  },
+  
+  "savePreferences": "ప్రాధాన్యతలను సేవ్ చేయండి",
+  "@savePreferences": {
+    "description": "Save Preferences button"
+  },
+  
+  "autoSave": "స్వయంచాలక సేవ్",
+  "@autoSave": {
+    "description": "Auto Save setting"
+  },
+  
+  "dataSync": "డేటా సమకాలీకరణ",
+  "@dataSync": {
+    "description": "Data Sync setting"
+  },
+  
+  "security": "భద్రత",
+  "@security": {
+    "description": "Security section"
+  },
+  
+  "changePassword": "పాస్‌వర్డ్‌ను మార్చండి",
+  "@changePassword": {
+    "description": "Change Password action"
+  },
+  
+  "currentPassword": "ప్రస్తుత పాస్‌వర్డ్",
+  "@currentPassword": {
+    "description": "Current Password field"
+  },
+  
+  "newPassword": "కొత్త పాస్‌వర్డ్",
+  "@newPassword": {
+    "description": "New Password field"
+  },
+  
+  "confirmNewPassword": "కొత్త పాస్‌వర్డ్‌ను నిర్ధారించండి",
+  "@confirmNewPassword": {
+    "description": "Confirm New Password field"
+  },
+  
+  "biometricAuthentication": "బయోమెట్రిక్ ప్రమాణీకరణ",
+  "@biometricAuthentication": {
+    "description": "Biometric Authentication setting"
+  },
+  
+  "appVersion": "అనువర్తన వెర్షన్",
+  "@appVersion": {
+    "description": "App Version field"
+  },
+  
+  "privacyPolicy": "గోప్యతా విధానం",
+  "@privacyPolicy": {
+    "description": "Privacy Policy link"
+  },
+  
+  "termsOfService": "సేవా నిబంధనలు",
+  "@termsOfService": {
+    "description": "Terms of Service link"
+  },
+  
+  "helpSupport": "సహాయం మరియు మద్దతు",
+  "@helpSupport": {
+    "description": "Help & Support link"
+  },
+  
+  "profileUpdatedSuccessfully": "ప్రొఫైల్ విజయవంతంగా నవీకరించబడింది!",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile update success message"
+  },
+  
+  "settingsSavedSuccessfully": "సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి!",
+  "@settingsSavedSuccessfully": {
+    "description": "Settings save success message"
+  },
+  
+  "passwordChangedSuccessfully": "పాస్‌వర్డ్ విజయవంతంగా మార్చబడింది!",
+  "@passwordChangedSuccessfully": {
+    "description": "Password change success message"
+  },
+  
+  "failedToUpdateProfile": "ప్రొఫైల్‌ను నవీకరించడంలో విఫలమైంది",
+  "@failedToUpdateProfile": {
+    "description": "Profile update error message"
+  },
+  
+  "failedToSaveSettings": "సెట్టింగ్‌లను సేవ్ చేయడంలో విఫలమైంది",
+  "@failedToSaveSettings": {
+    "description": "Settings save error message"
+  },
+  
+  "failedToChangePassword": "పాస్‌వర్డ్‌ను మార్చడంలో విఫలమైంది",
+  "@failedToChangePassword": {
+    "description": "Password change error message"
+  },
+  
+  "nameIsRequired": "పేరు అవసరం",
+  "@nameIsRequired": {
+    "description": "Name validation error"
+  },
+  
+  "mobileNumberIsRequired": "మొబైల్ నంబర్ అవసరం",
+  "@mobileNumberIsRequired": {
+    "description": "Mobile validation error"
+  },
+  
+  "pleaseEnterYourReviewNotes": "దయచేసి మీ సమీక్ష గమనికలను నమోదు చేయండి",
+  "@pleaseEnterYourReviewNotes": {
+    "description": "Review notes validation error"
+  },
+  
+  "pleaseProvideARating": "దయచేసి రేటింగ్‌ను అందించండి",
+  "@pleaseProvideARating": {
+    "description": "Rating validation error"
+  },
+  
+  "pleaseEnterYourResponse": "దయచేసి స్పందనను నమోదు చేయండి",
+  "@pleaseEnterYourResponse": {
+    "description": "Response validation error"
+  },
+  
+  "responseMustBeAtLeast10Characters": "స్పందన కనీసం 10 అక్షరాలుగా ఉండాలి",
+  "@responseMustBeAtLeast10Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "responseMustBeLessThan2000Characters": "స్పందన 2000 అక్షరాల కంటే తక్కువగా ఉండాలి",
+  "@responseMustBeLessThan2000Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "newPasswordsDoNotMatch": "కొత్త పాస్‌వర్డ్‌లు సరిపోవు",
+  "@newPasswordsDoNotMatch": {
+    "description": "Password confirmation error"
+  },
+  
+  "passwordMustBeAtLeast6Characters": "పాస్‌వర్డ్ కనీసం 6 అక్షరాలుగా ఉండాలి",
+  "@passwordMustBeAtLeast6Characters": {
+    "description": "Password length validation error"
+  },
+  
+  "youreOfflineSomeFeaturesMayBeLimited": "మీరు ఆఫ్‌లైన్‌లో ఉన్నారు. కొన్ని లక్షణాలు పరిమితంగా ఉండవచ్చు.",
+  "@youreOfflineSomeFeaturesMayBeLimited": {
+    "description": "Offline mode banner message"
+  },
+  
+  "pending": "వేచివున్నది",
+  "@pending": {
+    "description": "Pending status"
+  },
+  
+  "dataSyncedSuccessfully": "డేటా విజయవంతంగా సమకాలీకరించబడింది!",
+  "@dataSyncedSuccessfully": {
+    "description": "Sync success message"
+  },
+  
+  "syncFailed": "సమకాలీకరణ విఫలమైంది",
+  "@syncFailed": {
+    "description": "Sync error message"
+  },
+  
+  "syncingData": "డేటాను సమకాలీకరిస్తున్నాము...",
+  "@syncingData": {
+    "description": "Sync progress message"
+  },
+  
+  "noOfflineDataAvailable": "ఆఫ్‌లైన్ డేటా అందుబాటులో లేదు",
+  "@noOfflineDataAvailable": {
+    "description": "No offline data message"
+  },
+  
+  "offlineModeRequestQueuedForSync": "ఆఫ్‌లైన్ మోడ్: అభ్యర్థన సమకాలీకరణ కోసం క్యూలో ఉంది",
+  "@offlineModeRequestQueuedForSync": {
+    "description": "Offline mode queue message"
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "@@locale": "en",
+  "appTitle": "Crop Disease Detection",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  
+  "farmerDashboard": "Farmer Dashboard",
+  "@farmerDashboard": {
+    "description": "Farmer Dashboard title"
+  },
+  
+  "scanPlant": "Scan Plant",
+  "@scanPlant": {
+    "description": "Scan Plant button"
+  },
+  
+  "scanHistory": "Scan History",
+  "@scanHistory": {
+    "description": "Scan History button"
+  },
+  
+  "myReports": "My Reports",
+  "@myReports": {
+    "description": "My Reports button"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings button"
+  },
+  
+  "recentActivity": "Recent Activity",
+  "@recentActivity": {
+    "description": "Recent Activity section title"
+  },
+  
+  "quickStats": "Quick Stats",
+  "@quickStats": {
+    "description": "Quick Stats section title"
+  },
+  
+  "totalScans": "Scans completed",
+  "@totalScans": {
+    "description": "Total scans label"
+  },
+  
+  "diseasesDetected": "Diseases detected",
+  "@diseasesDetected": {
+    "description": "Diseases detected label"
+  },
+  
+  "plantsScanned": "Plants scanned",
+  "@plantsScanned": {
+    "description": "Plants scanned label"
+  },
+  
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile section title"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications section title"
+  },
+  
+  "appPreferences": "App Preferences",
+  "@appPreferences": {
+    "description": "App Preferences section title"
+  },
+  
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  
+  "account": "Account",
+  "@account": {
+    "description": "Account section title"
+  },
+  
+  "about": "About",
+  "@about": {
+    "description": "About section title"
+  },
+  
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Select Language dialog title"
+  },
+  
+  "languageChanged": "Language Changed",
+  "@languageChanged": {
+    "description": "Language changed dialog title"
+  },
+  
+  "languageChangedMessage": "The app language has been changed. Please restart the app to see the changes.",
+  "@languageChangedMessage": {
+    "description": "Language changed dialog message"
+  },
+  
+  "restartApp": "Restart App",
+  "@restartApp": {
+    "description": "Restart app button"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  
+  "noRecentActivity": "No recent activities",
+  "@noRecentActivity": {
+    "description": "No recent activities message"
+  },
+  
+  "startScanning": "Start scanning plants to see your activity here",
+  "@startScanning": {
+    "description": "Start scanning message"
+  },
+  
+  "plantScanned": "plant scanned",
+  "@plantScanned": {
+    "description": "Plant scanned activity message"
+  },
+  
+  "diseaseDetected": "detected",
+  "@diseaseDetected": {
+    "description": "Disease detected message"
+  },
+  
+  "severity": "severity",
+  "@severity": {
+    "description": "Severity label"
+  },
+  
+  "noDiseasesDetected": "No diseases detected",
+  "@noDiseasesDetected": {
+    "description": "No diseases detected message"
+  },
+  
+  "healthy": "Healthy",
+  "@healthy": {
+    "description": "Healthy status"
+  },
+  
+  "expertDashboard": "Expert Dashboard",
+  "@expertDashboard": {
+    "description": "Expert Dashboard title"
+  },
+  
+  "farmerQueries": "Farmer Queries",
+  "@farmerQueries": {
+    "description": "Farmer Queries section"
+  },
+  
+  "caseReview": "Case Review",
+  "@caseReview": {
+    "description": "Case Review section"
+  },
+  
+  "knowledgeBase": "Knowledge Base",
+  "@knowledgeBase": {
+    "description": "Knowledge Base section"
+  },
+  
+  "diseaseTrends": "Disease Trends",
+  "@diseaseTrends": {
+    "description": "Disease Trends section"
+  },
+  
+  "expertSettings": "Expert Settings",
+  "@expertSettings": {
+    "description": "Expert Settings section"
+  },
+  
+  "pendingCases": "Pending Cases",
+  "@pendingCases": {
+    "description": "Pending Cases count"
+  },
+  
+  "criticalCases": "Critical Cases",
+  "@criticalCases": {
+    "description": "Critical Cases count"
+  },
+  
+  "totalQueries": "Total Queries",
+  "@totalQueries": {
+    "description": "Total Queries count"
+  },
+  
+  "activeFarmers": "Active Farmers",
+  "@activeFarmers": {
+    "description": "Active Farmers count"
+  },
+  
+  "responseTime": "Response Time",
+  "@responseTime": {
+    "description": "Response Time metric"
+  },
+  
+  "satisfactionRating": "Satisfaction Rating",
+  "@satisfactionRating": {
+    "description": "Satisfaction Rating metric"
+  },
+  
+  "treatmentsProvided": "Treatments Provided",
+  "@treatmentsProvided": {
+    "description": "Treatments Provided count"
+  },
+  
+  "statisticsOverview": "Statistics Overview",
+  "@statisticsOverview": {
+    "description": "Statistics Overview section"
+  },
+  
+  "performanceMetrics": "Performance Metrics",
+  "@performanceMetrics": {
+    "description": "Performance Metrics section"
+  },
+  
+  "expertTools": "Expert Tools",
+  "@expertTools": {
+    "description": "Expert Tools section"
+  },
+  
+  "diseaseAnalysis": "Disease Analysis",
+  "@diseaseAnalysis": {
+    "description": "Disease Analysis tool"
+  },
+  
+  "reviewCases": "Review Cases",
+  "@reviewCases": {
+    "description": "Review Cases tool"
+  },
+  
+  "queryDetails": "Query Details",
+  "@queryDetails": {
+    "description": "Query Details title"
+  },
+  
+  "respondToQuery": "Respond to Query",
+  "@respondToQuery": {
+    "description": "Respond to Query action"
+  },
+  
+  "submitResponse": "Submit Response",
+  "@submitResponse": {
+    "description": "Submit Response button"
+  },
+  
+  "yourResponse": "Your Response",
+  "@yourResponse": {
+    "description": "Your Response field"
+  },
+  
+  "provideDetailedAdvice": "Provide detailed advice and recommendations...",
+  "@provideDetailedAdvice": {
+    "description": "Response field hint"
+  },
+  
+  "minimumCharactersRequired": "Minimum 10 characters required",
+  "@minimumCharactersRequired": {
+    "description": "Response field helper text"
+  },
+  
+  "responseSubmittedSuccessfully": "Response submitted successfully!",
+  "@responseSubmittedSuccessfully": {
+    "description": "Response success message"
+  },
+  
+  "failedToSubmitResponse": "Failed to submit response",
+  "@failedToSubmitResponse": {
+    "description": "Response error message"
+  },
+  
+  "caseDetails": "Case Details",
+  "@caseDetails": {
+    "description": "Case Details title"
+  },
+  
+  "reviewCase": "Review Case",
+  "@reviewCase": {
+    "description": "Review Case action"
+  },
+  
+  "expertNotes": "Expert Notes",
+  "@expertNotes": {
+    "description": "Expert Notes field"
+  },
+  
+  "rating": "Rating",
+  "@rating": {
+    "description": "Rating field"
+  },
+  
+  "provideProfessionalAssessment": "Provide your professional assessment and recommendations...",
+  "@provideProfessionalAssessment": {
+    "description": "Expert notes field hint"
+  },
+  
+  "reviewSubmittedSuccessfully": "Review submitted successfully!",
+  "@reviewSubmittedSuccessfully": {
+    "description": "Review success message"
+  },
+  
+  "failedToSubmitReview": "Failed to submit review",
+  "@failedToSubmitReview": {
+    "description": "Review error message"
+  },
+  
+  "searchDiseases": "Search diseases, crops, or symptoms...",
+  "@searchDiseases": {
+    "description": "Search field hint"
+  },
+  
+  "category": "Category",
+  "@category": {
+    "description": "Category label"
+  },
+  
+  "totalDiseases": "Total Diseases",
+  "@totalDiseases": {
+    "description": "Total Diseases count"
+  },
+  
+  "filtered": "Filtered",
+  "@filtered": {
+    "description": "Filtered count"
+  },
+  
+  "critical": "Critical",
+  "@critical": {
+    "description": "Critical status"
+  },
+  
+  "diseaseInformation": "Disease Information",
+  "@diseaseInformation": {
+    "description": "Disease Information title"
+  },
+  
+  "basicInformation": "Basic Information",
+  "@basicInformation": {
+    "description": "Basic Information section"
+  },
+  
+  "scientificName": "Scientific Name",
+  "@scientificName": {
+    "description": "Scientific Name field"
+  },
+  
+  "riskLevel": "Risk Level",
+  "@riskLevel": {
+    "description": "Risk Level field"
+  },
+  
+  "affectedCrops": "Affected Crops",
+  "@affectedCrops": {
+    "description": "Affected Crops field"
+  },
+  
+  "description": "Description",
+  "@description": {
+    "description": "Description field"
+  },
+  
+  "causes": "Causes",
+  "@causes": {
+    "description": "Causes section"
+  },
+  
+  "prevention": "Prevention",
+  "@prevention": {
+    "description": "Prevention section"
+  },
+  
+  "treatment": "Treatment",
+  "@treatment": {
+    "description": "Treatment section"
+  },
+  
+  "outbreakRiskAssessment": "Outbreak Risk Assessment",
+  "@outbreakRiskAssessment": {
+    "description": "Outbreak Risk Assessment title"
+  },
+  
+  "confidence": "Confidence",
+  "@confidence": {
+    "description": "Confidence field"
+  },
+  
+  "timeframe": "Timeframe",
+  "@timeframe": {
+    "description": "Timeframe field"
+  },
+  
+  "diseaseTrendsOverTime": "Disease Trends Over Time",
+  "@diseaseTrendsOverTime": {
+    "description": "Disease Trends chart title"
+  },
+  
+  "diseaseOutbreakPredictions": "Disease Outbreak Predictions",
+  "@diseaseOutbreakPredictions": {
+    "description": "Disease Outbreak Predictions title"
+  },
+  
+  "expertRecommendations": "Expert Recommendations",
+  "@expertRecommendations": {
+    "description": "Expert Recommendations section"
+  },
+  
+  "weatherImpactAnalysis": "Weather Impact Analysis",
+  "@weatherImpactAnalysis": {
+    "description": "Weather Impact Analysis title"
+  },
+  
+  "seasonalForecast": "Seasonal Forecast",
+  "@seasonalForecast": {
+    "description": "Seasonal Forecast title"
+  },
+  
+  "profileInformation": "Profile Information",
+  "@profileInformation": {
+    "description": "Profile Information section"
+  },
+  
+  "specialization": "Specialization",
+  "@specialization": {
+    "description": "Specialization field"
+  },
+  
+  "yearsOfExperience": "Years of Experience",
+  "@yearsOfExperience": {
+    "description": "Years of Experience field"
+  },
+  
+  "saveProfile": "Save Profile",
+  "@saveProfile": {
+    "description": "Save Profile button"
+  },
+  
+  "notificationSettings": "Notification Settings",
+  "@notificationSettings": {
+    "description": "Notification Settings section"
+  },
+  
+  "pushNotifications": "Push Notifications",
+  "@pushNotifications": {
+    "description": "Push Notifications setting"
+  },
+  
+  "emailNotifications": "Email Notifications",
+  "@emailNotifications": {
+    "description": "Email Notifications setting"
+  },
+  
+  "queryAlerts": "Query Alerts",
+  "@queryAlerts": {
+    "description": "Query Alerts setting"
+  },
+  
+  "caseReviewAlerts": "Case Review Alerts",
+  "@caseReviewAlerts": {
+    "description": "Case Review Alerts setting"
+  },
+  
+  "trendAlerts": "Trend Alerts",
+  "@trendAlerts": {
+    "description": "Trend Alerts setting"
+  },
+  
+  "saveNotificationSettings": "Save Notification Settings",
+  "@saveNotificationSettings": {
+    "description": "Save Notification Settings button"
+  },
+  
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences section"
+  },
+  
+  "savePreferences": "Save Preferences",
+  "@savePreferences": {
+    "description": "Save Preferences button"
+  },
+  
+  "autoSave": "Auto Save",
+  "@autoSave": {
+    "description": "Auto Save setting"
+  },
+  
+  "dataSync": "Data Sync",
+  "@dataSync": {
+    "description": "Data Sync setting"
+  },
+  
+  "security": "Security",
+  "@security": {
+    "description": "Security section"
+  },
+  
+  "changePassword": "Change Password",
+  "@changePassword": {
+    "description": "Change Password action"
+  },
+  
+  "currentPassword": "Current Password",
+  "@currentPassword": {
+    "description": "Current Password field"
+  },
+  
+  "newPassword": "New Password",
+  "@newPassword": {
+    "description": "New Password field"
+  },
+  
+  "confirmNewPassword": "Confirm New Password",
+  "@confirmNewPassword": {
+    "description": "Confirm New Password field"
+  },
+  
+  "biometricAuthentication": "Biometric Authentication",
+  "@biometricAuthentication": {
+    "description": "Biometric Authentication setting"
+  },
+  
+  "appVersion": "App Version",
+  "@appVersion": {
+    "description": "App Version field"
+  },
+  
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy Policy link"
+  },
+  
+  "termsOfService": "Terms of Service",
+  "@termsOfService": {
+    "description": "Terms of Service link"
+  },
+  
+  "helpSupport": "Help & Support",
+  "@helpSupport": {
+    "description": "Help & Support link"
+  },
+  
+  "profileUpdatedSuccessfully": "Profile updated successfully!",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile update success message"
+  },
+  
+  "settingsSavedSuccessfully": "Settings saved successfully!",
+  "@settingsSavedSuccessfully": {
+    "description": "Settings save success message"
+  },
+  
+  "passwordChangedSuccessfully": "Password changed successfully!",
+  "@passwordChangedSuccessfully": {
+    "description": "Password change success message"
+  },
+  
+  "failedToUpdateProfile": "Failed to update profile",
+  "@failedToUpdateProfile": {
+    "description": "Profile update error message"
+  },
+  
+  "failedToSaveSettings": "Failed to save settings",
+  "@failedToSaveSettings": {
+    "description": "Settings save error message"
+  },
+  
+  "failedToChangePassword": "Failed to change password",
+  "@failedToChangePassword": {
+    "description": "Password change error message"
+  },
+  
+  "nameIsRequired": "Name is required",
+  "@nameIsRequired": {
+    "description": "Name validation error"
+  },
+  
+  "mobileNumberIsRequired": "Mobile number is required",
+  "@mobileNumberIsRequired": {
+    "description": "Mobile validation error"
+  },
+  
+  "pleaseEnterYourReviewNotes": "Please enter your review notes",
+  "@pleaseEnterYourReviewNotes": {
+    "description": "Review notes validation error"
+  },
+  
+  "pleaseProvideARating": "Please provide a rating",
+  "@pleaseProvideARating": {
+    "description": "Rating validation error"
+  },
+  
+  "pleaseEnterYourResponse": "Please enter a response",
+  "@pleaseEnterYourResponse": {
+    "description": "Response validation error"
+  },
+  
+  "responseMustBeAtLeast10Characters": "Response must be at least 10 characters long",
+  "@responseMustBeAtLeast10Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "responseMustBeLessThan2000Characters": "Response must be less than 2000 characters",
+  "@responseMustBeLessThan2000Characters": {
+    "description": "Response length validation error"
+  },
+  
+  "newPasswordsDoNotMatch": "New passwords do not match",
+  "@newPasswordsDoNotMatch": {
+    "description": "Password confirmation error"
+  },
+  
+  "passwordMustBeAtLeast6Characters": "Password must be at least 6 characters",
+  "@passwordMustBeAtLeast6Characters": {
+    "description": "Password length validation error"
+  },
+  
+  "youreOfflineSomeFeaturesMayBeLimited": "You're offline. Some features may be limited.",
+  "@youreOfflineSomeFeaturesMayBeLimited": {
+    "description": "Offline mode banner message"
+  },
+  
+  "pending": "pending",
+  "@pending": {
+    "description": "Pending status"
+  },
+  
+  "dataSyncedSuccessfully": "Data synced successfully!",
+  "@dataSyncedSuccessfully": {
+    "description": "Sync success message"
+  },
+  
+  "syncFailed": "Sync failed",
+  "@syncFailed": {
+    "description": "Sync error message"
+  },
+  
+  "syncingData": "Syncing data...",
+  "@syncingData": {
+    "description": "Sync progress message"
+  },
+  
+  "noOfflineDataAvailable": "No offline data available",
+  "@noOfflineDataAvailable": {
+    "description": "No offline data message"
+  },
+  
+  "offlineModeRequestQueuedForSync": "Offline mode: Request queued for sync",
+  "@offlineModeRequestQueuedForSync": {
+    "description": "Offline mode queue message"
+  }
+}
