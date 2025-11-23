@@ -376,6 +376,15 @@ class _FarmerDashboardState extends State<FarmerDashboard> {
                           );
                         },
                       ),
+                      _buildActionCard(
+                        context,
+                        icon: Icons.store,
+                        label: 'Nearby Stores',
+                        color: Colors.deepPurple,
+                        onTap: () {
+                          Navigator.pushNamed(context, '/farmer/agri-stores');
+                        },
+                      ),
                     ],
                   ),
                   const SizedBox(height: 24),

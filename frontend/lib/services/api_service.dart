@@ -127,6 +127,27 @@ class ApiService {
     }
   }
 
+  static Future<dynamic> deleteWithAuth(
+    String endpoint,
+    String token,
+  ) async {
+    try {
+      final response = await http
+          .delete(
+            Uri.parse('$baseUrl/$endpoint'),
+            headers: {
+              'Content-Type': 'application/json; charset=UTF-8',
+              'Authorization': 'Bearer $token',
+            },
+          )
+          .timeout(timeoutDuration);
+
+      return _handleResponse(response);
+    } catch (e) {
+      throw Exception('Failed to make authenticated DELETE request: $e');
+    }
+  }
+
   static dynamic _handleResponse(http.Response response) {
     print('Response Status: ${response.statusCode}');
     print('Response Body: "${response.body}"');

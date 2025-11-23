@@ -329,6 +329,13 @@ class _AdminExpertVerificationScreenState
         foregroundColor: Colors.white,
         actions: [
           IconButton(
+            icon: const Icon(Icons.store),
+            onPressed: () {
+              Navigator.pushNamed(context, '/admin/agri-stores');
+            },
+            tooltip: 'Manage Agri Stores',
+          ),
+          IconButton(
             icon: const Icon(Icons.refresh),
             onPressed: _loadExperts,
             tooltip: 'Refresh',

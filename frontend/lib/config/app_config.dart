@@ -4,7 +4,7 @@ class AppConfig {
   // ========================================
   // Your current IP: 10.198.106.66
   // When IP changes, just update this line:
-  static const String devIpAddress = '192.168.0.107';
+  static const String devIpAddress = '10.167.169.66';
 
   // Development configuration
   static const String devBaseUrl = 'http://$devIpAddress:8080/api';

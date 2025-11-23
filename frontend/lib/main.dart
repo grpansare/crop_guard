@@ -10,6 +10,8 @@ import 'screens/admin_expert_verification_screen.dart';
 import 'screens/scan_result_screen.dart';
 import 'screens/test_api_screen.dart';
 import 'screens/disease_detection_screen.dart';
+import 'screens/admin_agri_stores_screen.dart';
+import 'screens/farmer_agri_stores_map_screen.dart';
 import 'services/language_service.dart';
 import 'services/theme_service.dart';
 import 'services/offline_service.dart';
@@ -110,6 +112,14 @@ class _CropDiseaseAppState extends State<CropDiseaseApp> {
         '/expert-dashboard': (context) => const ExpertDashboard(),
         '/test-api': (context) => const TestApiScreen(),
         '/disease-detection': (context) => const DiseaseDetectionScreen(),
+        '/admin/agri-stores': (context) {
+          // Import added at top
+          return const AdminAgriStoresScreen();
+        },
+        '/farmer/agri-stores': (context) {
+          // Import added at top
+          return const FarmerAgriStoresMapScreen();
+        },
         '/scan-result': (context) {
           final args =
               ModalRoute.of(context)!.settings.arguments
